@@ -40,7 +40,8 @@ h3 {
   color: #2e2f42;
 }
 
-ul {
+ul,
+li {
   list-style: none;
   margin: 0;
   color: #2e2f42;
@@ -66,6 +67,7 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  margin: 0;
 }
 
 /* Header */
@@ -114,7 +116,6 @@ img {
 .nav__item {
   list-style: none;
   padding: 24px 0;
-  position: relative;
   color: #404bbf;
 }
 
@@ -129,9 +130,6 @@ img {
 
 .current {
   position: relative;
-}
-
-.current .nav__link {
   color: #404bbf;
 }
 
@@ -144,7 +142,6 @@ img {
   height: 4px;
   background: #404bbf;
   left: 0;
-  color: #404bbf;
 }
 
 .address__link:hover,
@@ -411,7 +408,7 @@ img {
 }
 
 .icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 /* Portfolio Section */
@@ -586,5 +583,5 @@ footer {
 }
 
 .icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
